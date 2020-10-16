@@ -1,0 +1,29 @@
+{
+  "name": "DomsGroup",
+  "version": "1.0.0",
+  "description": "DomsGroup is a social media app based on a tutorial found [here](https://www.youtube.com/watch?v=n1mdAPFq2Os).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomenicBeall/DomsGroup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DomenicBeall/DomsGroup/issues"
+  },
+  "homepage": "https://github.com/DomenicBeall/DomsGroup#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
